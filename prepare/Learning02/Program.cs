@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System;
 
 class Program
@@ -22,6 +23,6 @@ class Program
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
 
-        myResume.Display();
+        myResume.DisplayAllJobs();
     }
 }
